@@ -277,7 +277,7 @@ Now every image inserted to the editor will issue a POST with the following sign
     Accept-Encoding: gzip, deflate
     Content-Length: 324
 
-If you are using ASP.NET Web API, your server wrapper would look something like this:
+If you are using **ASP.NET Web API**, your server wrapper would look something like this:
 
      public class filesApiController : ApiController
         {
