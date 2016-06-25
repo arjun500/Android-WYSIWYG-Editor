@@ -1,6 +1,6 @@
 ![enter image description here](https://img.shields.io/badge/release-0.3.0-blue.svg)&nbsp; ![enter image description here](https://img.shields.io/badge/license-Apache 2-blue.svg)&nbsp; ![enter image description here](https://img.shields.io/badge/issues-0-green.svg)
 
-Android-WYSIWYG-Editor
+Laser-Native-Editor
 ===================
 
 An iframe free text editor that uses native components in the content tree.
@@ -9,14 +9,14 @@ Download
 ------------
 gradle:
 
-    compile 'com.github.irshulx:android-wysiwyg-editor:0.3.2'
+    compile 'com.github.irshulx:laser-native-editor:0.3.5'
 
 or maven:
 
     <dependency>
       <groupId>com.github.irshulx</groupId>
-      <artifactId>android-wysiwyg-editor</artifactId>
-      <version>0.3.2</version>
+      <artifactId>laser-native-editor</artifactId>
+      <version>0.3.5</version>
       <type>pom</type>
     </dependency>
 
@@ -24,7 +24,7 @@ Demo
 --------------
 Demo APK can be download [here](https://www.dropbox.com/s/xmqw2mj1ocj7wgt/laser-native-editor-demo.apk?dl=0).
 
-![enter image description here](https://raw.githubusercontent.com/irshuLx/android-wysiwyg-editor/master/screens/gif-1.gif)&nbsp;&nbsp;&nbsp;&nbsp;![enter image description here](https://raw.githubusercontent.com/irshuLx/android-wysiwyg-editor/master/screens/gif-2.gif)&nbsp;&nbsp;&nbsp;&nbsp;![enter image description here](https://raw.githubusercontent.com/irshuLx/android-wysiwyg-editor/master/screens/gif-3.gif)&nbsp;&nbsp;&nbsp;![enter image description here](https://raw.githubusercontent.com/irshuLx/android-wysiwyg-editor/master/screens/editor_screen_1.jpg)&nbsp;&nbsp;&nbsp; ![enter image description here](https://raw.githubusercontent.com/irshuLx/android-wysiwyg-editor/master/screens/editor_screen_2.jpg)&nbsp;&nbsp;&nbsp; ![enter image description here](https://raw.githubusercontent.com/irshuLx/android-wysiwyg-editor/master/screens/editor_screen_3.jpg)  
+![enter image description here](https://raw.githubusercontent.com/irshuLx/laser-native-editor/master/screens/gif-1.gif)&nbsp;&nbsp;&nbsp;&nbsp;![enter image description here](https://raw.githubusercontent.com/irshuLx/laser-native-editor/master/screens/gif-2.gif)&nbsp;&nbsp;&nbsp;&nbsp;![enter image description here](https://raw.githubusercontent.com/irshuLx/laser-native-editor/master/screens/gif-3.gif)&nbsp;&nbsp;&nbsp;![enter image description here](https://raw.githubusercontent.com/irshuLx/laser-native-editor/master/screens/editor_screen_1.jpg)&nbsp;&nbsp;&nbsp; ![enter image description here](https://raw.githubusercontent.com/irshuLx/laser-native-editor/master/screens/editor_screen_2.jpg)&nbsp;&nbsp;&nbsp; ![enter image description here](https://raw.githubusercontent.com/irshuLx/laser-native-editor/master/screens/editor_screen_3.jpg)  
 
 
 Features
@@ -60,7 +60,7 @@ The editor is built, so that every part of the design have been exposed and is a
 Usage
 -------------------
 
-For a complete overview of the implementation, please take a look at [activity_editor_test.xml](https://github.com/irshuLx/android-wysiwyg-editor/blob/master/app/src/main/res/layout/activity_editor_test.xml), [EditorTestActivity.java](https://github.com/irshuLx/android-wysiwyg-editor/blob/master/app/src/main/java/com/example/mkallingal/qapp/EditorTestActivity.java) and [editor_toolbar_linearlayout_horizontal.xml](https://github.com/irshuLx/android-wysiwyg-editor/blob/master/laser-native-editor/src/main/res/layout/editor_toolbar_linearlayout_horizontal.xml).
+For a complete overview of the implementation, please take a look at [activity_editor_test.xml](https://github.com/irshuLx/laser-native-editor/blob/master/app/src/main/res/layout/activity_editor_test.xml), [EditorTestActivity.java](https://github.com/irshuLx/laser-native-editor/blob/master/app/src/main/java/com/example/mkallingal/qapp/EditorTestActivity.java) and [editor_toolbar_linearlayout_horizontal.xml](https://github.com/irshuLx/laser-native-editor/blob/master/laser-native-editor/src/main/res/layout/editor_toolbar_linearlayout_horizontal.xml).
 
 **Layout XML**
 
@@ -233,7 +233,7 @@ If you are using **Image Pickers** or **Map Marker Pickers**, Add the following 
 
 You are free to set any of the below fonts as the default font for your editor.  To apply the font, use the API, for e.g: `_editor.setFontFace(R.string.fontFamily__cursive);`
 
-![enter image description here](https://raw.githubusercontent.com/irshuLx/android-wysiwyg-editor/master/screens/font-style-1.jpg)&nbsp;&nbsp;&nbsp; ![enter image description here](https://raw.githubusercontent.com/irshuLx/android-wysiwyg-editor/master/screens/font-style-2.jpg)&nbsp;&nbsp;&nbsp; ![enter image description here](https://raw.githubusercontent.com/irshuLx/android-wysiwyg-editor/master/screens/font-style-3.jpg)  
+![enter image description here](https://raw.githubusercontent.com/irshuLx/laser-native-editor/master/screens/font-style-1.jpg)&nbsp;&nbsp;&nbsp; ![enter image description here](https://raw.githubusercontent.com/irshuLx/laser-native-editor/master/screens/font-style-2.jpg)&nbsp;&nbsp;&nbsp; ![enter image description here](https://raw.githubusercontent.com/irshuLx/laser-native-editor/master/screens/font-style-3.jpg)  
 
 | Font Name     | Resource | 
 | :------- | :-----: |
@@ -254,9 +254,9 @@ You can create your own layouts with the same Id's with the required Id's and pu
 
 | Layout     | Description | Required Id's |
 | :------- | :-----: |:-----: |
-| [R.layout.tmpl_image_view](https://github.com/irshuLx/android-wysiwyg-editor/blob/master/laser-native-editor/src/main/res/layout/tmpl_image_view.xml) | Used to insert an image to the editor  | `@+id/progress`, `@+id/lblStatus`,`@+id/imageView`,`@+id/btn_remove`
-| [R.layout.tmpl_list_item](https://github.com/irshuLx/android-wysiwyg-editor/blob/master/laser-native-editor/src/main/res/layout/tmpl_list_item.xml) | Used to insert an ordered/unordered list  | `@+id/lblOrder`, `@+id/txtText`,`@+id/lblText`
-| [R.layout.tmpl_divider_layout](https://github.com/irshuLx/android-wysiwyg-editor/blob/master/laser-native-editor/src/main/res/layout/tmpl_divider_layout.xml) | Used to insert a line divider  | -
+| [R.layout.tmpl_image_view](https://github.com/irshuLx/laser-native-editor/blob/master/laser-native-editor/src/main/res/layout/tmpl_image_view.xml) | Used to insert an image to the editor  | `@+id/progress`, `@+id/lblStatus`,`@+id/imageView`,`@+id/btn_remove`
+| [R.layout.tmpl_list_item](https://github.com/irshuLx/laser-native-editor/blob/master/laser-native-editor/src/main/res/layout/tmpl_list_item.xml) | Used to insert an ordered/unordered list  | `@+id/lblOrder`, `@+id/txtText`,`@+id/lblText`
+| [R.layout.tmpl_divider_layout](https://github.com/irshuLx/laser-native-editor/blob/master/laser-native-editor/src/main/res/layout/tmpl_divider_layout.xml) | Used to insert a line divider  | -
 
 You could also set the layouts via the API:
 
