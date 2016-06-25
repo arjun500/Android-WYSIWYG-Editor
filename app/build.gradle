@@ -39,7 +39,7 @@ dependencies {
     compile 'com.android.support:cardview-v7:23.4.0'
     compile 'com.android.support:support-v4:23.4.0'
     //compile project(':android-wysiwyg-editor')
-    compile 'com.github.irshulx:laser-native-editor:0.3.2'
+    compile 'com.github.irshulx:laser-native-editor:0.3.5'
 
 
 }
