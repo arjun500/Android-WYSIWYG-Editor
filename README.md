@@ -1,6 +1,6 @@
 ![enter image description here](https://img.shields.io/badge/release-0.3.0-blue.svg)&nbsp; ![enter image description here](https://img.shields.io/badge/license-Apache 2-blue.svg)&nbsp; ![enter image description here](https://img.shields.io/badge/issues-0-green.svg)
 
-Laser-Native-Editor
+Android-WYSIWYG-Editor
 ===================
 
 An iframe free text editor that uses native components in the content tree.
